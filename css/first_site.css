@@ -113,11 +113,13 @@ width: 100%;
 .bp{
     visibility: hidden;
     position: fixed;
+    z-index: 1;
 }
-.as:hover.bp{
+.abcd:hover .bp{
     visibility: visible;
+    transition: .5s;
 }
-   
+
 /* first section  */
 .p3{
         font-size: 35px;
